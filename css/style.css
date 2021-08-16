@@ -27,4 +27,9 @@
   .container {
     margin: 0 auto;
     min-width: 1600px;
+    position: relative;
+  }
+
+  a {
+    text-decoration: none;
   }
