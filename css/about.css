@@ -5,7 +5,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* 727 */
 }
 
 #about-img {
@@ -15,7 +14,7 @@
   left: 0;
 }
 
-#about-first-part {
+#story {
   width: 928px;
   height: 272.5px;
   position: absolute;
@@ -33,7 +32,7 @@
   list-style: none;
 }
 
-#about-heading {
+.heading {
   font-family: "Playfair Display";
   font-size: 30px;
   text-transform: uppercase;
@@ -42,7 +41,7 @@
   letter-spacing: 0.05em;
   color: #413d4b;
 }
-#about-text {
+.text {
   opacity: 0.74;
   font-family: Roboto;
   font-size: 14px;
@@ -55,38 +54,4 @@
 #about-button {
   position: absolute;
   left: 0;
-}
-
-#about-second-part {
-  width: 100%;
-  height: 550px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: url(../img/watch-about.jpg);
-}
-#about-darker {
-  width: 100%;
-  min-width: 1600px;
-  height: 550px;
-  background-color: rgb(43, 20, 34);
-  position: absolute;
-  opacity: 60%;
-}
-
-#watch-about {
-    height: 240px;
-    width: 200px;
-    position: absolute;
-
-}
-
-#watch-heading {
-  text-transform: uppercase;
-  font-family: Roboto;
-  font-size: 20px;
-  line-height: 1.2;
-  font-weight: 900;
-  letter-spacing: 0.05em;
-  color: #ffffff;
 }

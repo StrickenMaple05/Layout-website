@@ -2,7 +2,7 @@
 #home {
   height: 670px;
   margin: 0 auto;
-  background-image: url("../img/home-bg.jpg");
+  background-image: url("../img/home/home-bg.jpg");
 
   background-size: cover;
   display: flex;
@@ -14,8 +14,6 @@
   width: 780px;
   height: 235px;
   margin: auto;
-}
-.slider li {
   list-style: none;
   text-align: center;
 }
@@ -27,8 +25,14 @@
   letter-spacing: 0.01em;
   color: white;
   height: 60px;
-  border-bottom: 2px solid white;
-  border-bottom-color: #00e0d0;
+}
+
+.divider {
+  border: 1px solid #00e0d0;
+  border-top: 0px;
+  width: 50px;
+  position: relative;
+  margin: auto;
 }
 
 #second-text {
