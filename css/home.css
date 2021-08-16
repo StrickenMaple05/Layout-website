@@ -1,0 +1,99 @@
+
+#home {
+  height: 670px;
+  margin: 0 auto;
+  background-image: url("../img/home-bg.jpg");
+
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider {
+  width: 780px;
+  height: 235px;
+  margin: auto;
+}
+.slider li {
+  list-style: none;
+  text-align: center;
+}
+#first-text {
+  font-family: Playfair Display;
+  font-size: 32px;
+  line-height: 1.2em;
+  font-weight: 900;
+  letter-spacing: 0.01em;
+  color: white;
+  height: 60px;
+  border-bottom: 2px solid white;
+  border-bottom-color: #00e0d0;
+}
+
+#second-text {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  color: white;
+}
+
+.learn-more {
+  width: 120px;
+  height: 40px;
+  border: 1px solid #00e0d0;
+  border-radius: 3px;
+  background-color: transparent;
+  color: #00e0d0;
+  font-family: Hammersmith One;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.learn-more:hover {
+  background-color: #00e0d0;
+  color: white;
+}
+.learn-more:active {
+  background-color: green;
+  border-color: green;
+  color: white;
+}
+
+.pagination {
+  text-decoration: none;
+  margin: auto;
+  font-size: 30px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.paginator {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  margin: 0 2px;
+  appearance: none;
+}
+
+.paginator:hover {
+    background-color: #69e9da;
+}
+
+.paginator:hover, .paginator:checked {
+    background-color: #00e0d0;
+}
+
+

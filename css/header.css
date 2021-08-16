@@ -1,0 +1,78 @@
+.header {
+  width: 100%;
+  min-width: 1600px;
+  height: 70px;
+  position: fixed;
+  z-index: 1;
+}
+.header-bg {
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+  opacity: 50%;
+  position: absolute;
+}
+
+.header-action {
+  width: 1200px;
+  height: 100%;
+  margin: auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* logo configuration */
+.logo {
+  text-decoration: none;
+  position: absolute;
+  left: 0;
+  display: flex;
+}
+.logo-text {
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(90deg, #00e0d0 0%, #4aa3cc 100%);
+  color: #18848f;
+
+  font-family: Roboto;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 100;
+
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* navigation bar configuration */
+.navbar {
+  position: absolute;
+  right: 0;
+}
+.navbar * {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-family: Roboto;
+  font-weight: bold;
+  display: inline-block;
+  height: 70px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.navlink:hover {
+  border-bottom: 1px solid #00e0d0;
+}
+.navbutton {
+  display: flex;
+  align-items: center;
+}
+.navbutton:hover,
+.navbutton:active {
+  color: #00e0d0;
+}
