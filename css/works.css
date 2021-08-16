@@ -1,0 +1,97 @@
+#works {
+  height: 800px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.works-heading {
+  position: absolute;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  width: 940px;
+  height: 180px;
+}
+.left {
+  position: absolute;
+  left: 0;
+}
+.right {
+  position: absolute;
+  right: 0;
+}
+#see-projects {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  color: #413d4b;
+  text-transform: none;
+}
+#see-projects:hover {
+  color: gray;
+}
+.content {
+  width: 1500px;
+  height: 400px;
+  position: absolute;
+  align-self: center;
+}
+.work {
+  width: 220px;
+  height: 220px;
+  background-image: url(../img/teams/profile-1.jpg);
+  background-size: 220px 220px;
+  
+}
+#a {
+    background-image: url(../img/works/pic-1.jpg);
+}
+#b {
+    background-image: url(../img/works/pic-2.jpg);
+}
+#c {
+    background-image: url(../img/works/pic-3.jpg);
+}
+#d {
+    background-image: url(../img/works/pic-4.jpg);
+}
+#e {
+    background-image: url(../img/works/pic-5.jfif);
+}
+#f {
+    background-image: url(../img/works/pic-6.jfif);
+}
+#g {
+    background-image: url(../img/works/pic-7.jpg);
+}
+#h {
+    background-image: url(../img/works/pic-8.jfif);
+}
+#i {
+    background-image: url(../img/works/pic-9.jfif);
+}
+#j {
+    background-image: url(../img/works/pic-10.webp);
+}
+#k {
+    background-image: url(../img/works/pic-11.jfif);
+}
+#l {
+    background-image: url(../img/works/pic-12.jpg);
+}
+
+.all-projects-container {
+  display: flex;
+  width: 100px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.all-projects {
+    height: 100%;
+    width: 72%;
+    top: 20px;
+}

@@ -44,7 +44,7 @@
   color: white;
 }
 
-.learn-more {
+.button {
   height: 40px;
   border: 1px solid #00e0d0;
   border-radius: 3px;
@@ -61,11 +61,11 @@
   justify-content: center;
   padding: 10px;
 }
-.learn-more:hover {
+.button:hover {
   background-color: #00e0d0;
   color: white;
 }
-.learn-more:active {
+.button:active {
   background-color: green;
   border-color: green;
   color: white;
@@ -93,6 +93,7 @@
 }
 .paginator:hover, .paginator:checked {
     background-color: #00e0d0;
+
 }
 
 
