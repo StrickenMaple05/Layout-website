@@ -7,6 +7,22 @@
   .transition {
     transition: 0.5s;
   }
+
+  .pulse-animation {
+    animation: pulse 1s infinite;
+  }
+
+  @keyframes pulse {
+    0% {
+      opacity: 0%;
+    }
+    50% {
+      opacity: 100%;
+    }
+    100% {
+      opacity: 0%;
+    }
+  }
   
   .container {
     margin: 0 auto;
