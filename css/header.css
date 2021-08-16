@@ -71,6 +71,7 @@
 .navbutton {
   display: flex;
   align-items: center;
+  
 }
 .navbutton:hover,
 .navbutton:active {
