@@ -1,18 +1,22 @@
 #watch-about {
     width: 100%;
-    height: 550px;
+    height: 700px;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     background-image: url(../img/about/watch-about.jpg);
   }
-  #about-darker {
+  .bg-darker {
     width: 100%;
     min-width: 1600px;
-    height: 550px;
-    background-color: rgb(43, 20, 34);
     position: absolute;
     opacity: 60%;
+  }
+  .about-darker {
+    position: absolute;
+    height: 100%;
+    background-color: rgb(43, 20, 34);
   }
   
   #watch-content {
