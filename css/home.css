@@ -3,7 +3,8 @@
   height: 800px;
   margin: 0 auto;
   background-image: url("../img/home/bg.jpg");
-
+  z-index: 1;
+  position: relative;
   background-size: cover;
   display: flex;
   align-items: center;
