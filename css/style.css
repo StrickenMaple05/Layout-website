@@ -1,35 +1,47 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* animation */
-  .transition {
-    transition: 0.5s;
-  }
+  margin: 0;
+  padding: 0;
+}
 
-  .pulse-animation {
-    animation: pulse 1s infinite;
-  }
+/* animation */
+.transition {
+  transition: 0.5s;
+}
 
-  @keyframes pulse {
-    0% {
-      opacity: 0%;
-    }
-    50% {
-      opacity: 100%;
-    }
-    100% {
-      opacity: 0%;
-    }
-  }
-  
-  .container {
-    margin: 0 auto;
-    min-width: 1600px;
-    position: relative;
-  }
+.pulse-animation {
+  animation: pulse 1s infinite;
+}
 
-  a {
-    text-decoration: none;
+@keyframes pulse {
+  0% {
+    opacity: 0%;
   }
+  50% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
+
+.container {
+  margin: 0 auto;
+  min-width: 1600px;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.paginate {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}

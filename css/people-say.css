@@ -1,0 +1,56 @@
+#people-say {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-image: url(../img/people-say/bg.jpg);
+}
+.people-say-darker {
+  height: 100%;
+  opacity: 75%;
+  background-color: rgb(18, 0, 39);
+}
+.people-say-content {
+    height: 300px;
+  position: absolute;
+  top: 0;
+  list-style: none;
+  justify-content: center;
+  display: inline-block;
+}
+.people-say-content li {
+  justify-content: center;
+  color: white;
+}
+.people-say-heading {
+    margin-top: 30px;
+    margin-bottom: -15px;
+  font-size: 100px;
+  color: white;
+}
+#people-say-text {
+  opacity: 0.85;
+  font-family: "Playfair Display";
+  width: 780px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #ffffff;
+}
+.people-say-human {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: -5px;
+    margin-bottom: 7px;
+}
+#human-job {
+    opacity: 60%;
+}
+.people-say-pagination {
+    position: absolute;
+    bottom: 15%;
+}
