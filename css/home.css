@@ -5,6 +5,7 @@
   background-image: url("../img/home/bg.jpg");
   z-index: 1;
   position: relative;
+  margin-top: -70px;
   background-size: cover;
   display: flex;
   align-items: center;
