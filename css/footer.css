@@ -8,6 +8,7 @@
   justify-content: center;
   background-image: url(../img/footer/bg.webp);
   background-size: 100% 100%;
+  min-width: 1600px;
 }
 
 .footer-darker {

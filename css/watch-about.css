@@ -9,7 +9,6 @@
   }
   .bg-darker {
     width: 100%;
-    min-width: 1600px;
     position: absolute;
     opacity: 60%;
   }
